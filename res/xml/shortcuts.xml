@@ -24,4 +24,28 @@
             android:action="android.intent.action.VIEW"
             android:data="content://com.android.providers.media.documents/root/images_root" />
     </shortcut>
+	<shortcut
+        android:shortcutId="content://com.android.providers.media.documents/root/video_root"
+        android:icon="@drawable/ic_videos_shortcut"
+        android:shortcutShortLabel="@string/vidoes_shortcut_label" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://com.android.providers.media.documents/root/video_root" />
+    </shortcut>
+	<shortcut
+        android:shortcutId="content://com.android.providers.media.documents/root/audio_root"
+        android:icon="@drawable/ic_audios_shortcut"
+        android:shortcutShortLabel="@string/audios_shortcut_label" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://com.android.providers.media.documents/root/audio_root" />
+    </shortcut>
+	<shortcut
+        android:shortcutId="content://com.android.providers.media.documents/root/documents_root"
+        android:icon="@drawable/ic_folder_shortcut"
+        android:shortcutShortLabel="@string/documents_shortcut_label" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://com.android.providers.media.documents/root/documents_root" />
+    </shortcut>
 </shortcuts>
