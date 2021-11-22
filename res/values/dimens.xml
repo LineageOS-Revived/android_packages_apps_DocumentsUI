@@ -16,7 +16,7 @@
 
 <resources>
     <!-- Material design rounded radius -->
-    <dimen name="material_round_radius">2dp</dimen>
+    <dimen name="material_round_radius">8.0dip</dimen>
 
     <dimen name="grid_container_padding">20dp</dimen>
     <dimen name="list_container_padding">0dp</dimen>
@@ -49,14 +49,14 @@
     <dimen name="dir_elevation">8dp</dimen>
     <dimen name="drag_shadow_size">120dp</dimen>
     <dimen name="grid_item_elevation">2dp</dimen>
-    <dimen name="grid_item_radius">2dp</dimen>
+    <dimen name="grid_item_radius">8.0dip</dimen>
     <dimen name="max_drawer_width">280dp</dimen>
 
     <dimen name="drawer_edge_width">12dp</dimen>
 
     <dimen name="drag_shadow_width">176dp</dimen>
     <dimen name="drag_shadow_height">64dp</dimen>
-    <dimen name="drag_shadow_radius">4dp</dimen>
+    <dimen name="drag_shadow_radius">8.0dip</dimen>
     <dimen name="drag_shadow_padding">8dp</dimen>
 
     <dimen name="doc_header_sort_icon_size">16dp</dimen>
@@ -79,7 +79,7 @@
     <dimen name="bottom_bar_padding">10dp</dimen>
     <dimen name="bottom_bar_button_height">36dip</dimen>
     <dimen name="bottom_bar_button_horizontal_padding">24dp</dimen>
-    <dimen name="bottom_bar_button_corner_radius">4dp</dimen>
+    <dimen name="bottom_bar_button_corner_radius">8.0dip</dimen>
 
     <dimen name="inspector_header_height">280dp</dimen>
 
@@ -89,7 +89,7 @@
     <dimen name="search_chip_group_margin">8dp</dimen>
     <dimen name="search_chip_spacing">8dp</dimen>
     <dimen name="search_chip_icon_padding">4dp</dimen>
-    <dimen name="search_chip_radius">16dp</dimen>
+    <dimen name="search_chip_radius">8.0dip</dimen>
 
     <dimen name="dialog_content_padding_top">18dp</dimen>
     <dimen name="dialog_content_padding_bottom">24dp</dimen>
@@ -107,7 +107,7 @@
     <dimen name="apps_row_exit_icon_margin_bottom">6dp</dimen>
     <dimen name="apps_row_item_text_margin_horizontal">8dp</dimen>
 
-    <dimen name="search_bar_radius">8dp</dimen>
+    <dimen name="search_bar_radius">8.0dip</dimen>
     <dimen name="search_bar_background_margin_start">0dp</dimen>
     <dimen name="search_bar_background_margin_end">0dp</dimen>
     <dimen name="search_bar_margin">8dp</dimen>
