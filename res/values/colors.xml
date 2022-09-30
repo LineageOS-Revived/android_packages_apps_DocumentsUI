@@ -21,7 +21,7 @@
 
     <color name="app_background_color">@android:color/white</color>
     <color name="background_floating">@android:color/white</color>
-    <color name="nav_bar_translucent">#99FFFFFF</color>
+    <color name="nav_bar_translucent">@android:color/transparent</color>
 
     <color name="primary">#1E88E5</color> <!-- Blue 600 -->
     <color name="secondary">#E3F2FD</color> <!-- Blue 50 -->
@@ -41,4 +41,7 @@
     <color name="ic_launcher_icon_background">@*android:color/accent_device_default_light</color>
     <color name="shortcut_foreground">#ff3367d6</color>
     <color name="shortcut_background">#fff5f5f5</color>
+    
+    <color name="negative_button_color">@*android:color/button_material_light</color>
+    <color name="inverted">@android:color/black</color>
 </resources>
