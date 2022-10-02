@@ -89,7 +89,7 @@
                 android:background="?android:attr/colorBackground"
                 android:elevation="0dp"
                 app:titleTextAppearance="@style/DrawerMenuTitle"
-                app:titleTextColor="?android:colorPrimary"/>
+                app:titleTextColor="?android:textColorPrimary"/>
 
             <FrameLayout
                 android:id="@+id/container_roots"

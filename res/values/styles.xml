@@ -102,10 +102,10 @@
     </style>
 
     <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="colorAccent">@color/primary</item>
+        <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">@color/app_background_color</item>
-        <item name="android:fillColor">@color/primary</item>
-        <item name="backgroundTint">@color/primary</item>
+        <item name="android:fillColor">@color/colorAccent</item>
+        <item name="backgroundTint">@color/colorAccent</item>
         <item name="android:layout_marginStart">10dp</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">14sp</item>
@@ -127,5 +127,11 @@
         <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
         <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
         <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialogTitleStyle</item>
+    </style>
+    
+    <style name="MaterialAlertTextLabelStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+       <item name="hintTextColor">@color/colorAccent</item>
+       <item name="colorAccent">@color/colorAccent</item>
+       <item name="boxStrokeColor">@color/colorAccent</item>
     </style>
 </resources>

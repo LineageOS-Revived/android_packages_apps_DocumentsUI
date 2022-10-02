@@ -61,7 +61,7 @@ public class DocumentsSwipeRefreshLayout extends SwipeRefreshLayout {
     }
 
     public static int getBackground(Context context) {
-        TypedArray array = context.obtainStyledAttributes(new int[]{android.R.attr.colorBackgroundFloating});
+        TypedArray array = context.obtainStyledAttributes(new int[]{android.R.attr.colorAccent});
         int color = array.getColor(0, 0);
         array.recycle();
         return color;
