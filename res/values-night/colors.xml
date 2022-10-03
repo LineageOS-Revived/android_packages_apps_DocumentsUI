@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <color name="app_background_color">@*android:color/foreground_material_light</color>
+    <color name="app_background_color">@*android:color/background_floating_material_dark</color>
     <color name="background_floating">@*android:color/background_floating_material_dark</color>
     <color name="colorAccent">@*android:color/accent_device_default_dark</color>
     <color name="nav_bar_translucent">@android:color/transparent</color>
