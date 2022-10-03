@@ -19,7 +19,7 @@
         <color android:color="?android:colorSecondary"/>
     </item>
     <item android:state_selected="true">
-        <color android:color="?android:colorSecondary"/>
+        <color android:color="?android:strokeColor"/>
     </item>
     <item android:state_drag_hovered="true">
         <color android:color="?android:strokeColor"/>

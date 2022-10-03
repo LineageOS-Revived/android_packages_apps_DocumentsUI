@@ -37,6 +37,7 @@
         <selector>
             <item
                 android:state_activated="true"
+                android:alpha="@dimen/root_icon_disabled_alpha"
                 android:drawable="@drawable/root_list_selector"/>
         </selector>
     </item>

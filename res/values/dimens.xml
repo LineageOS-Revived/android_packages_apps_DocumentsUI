@@ -27,6 +27,7 @@
     <dimen name="root_spacer_padding">0dp</dimen>
     <dimen name="root_action_icon_size">18dp</dimen>
     <dimen name="root_icon_disabled_alpha">?android:attr/disabledAlpha</dimen>
+    <dimen name="root_icon_selection_alpha">0.8</dimen>
     <dimen name="check_icon_size">30dp</dimen>
     <dimen name="zoom_icon_size">24dp</dimen>
     <dimen name="list_item_thumbnail_size">40dp</dimen>
