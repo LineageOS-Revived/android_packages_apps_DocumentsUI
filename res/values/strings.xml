@@ -368,16 +368,16 @@
     </plurals>
 
     <!-- Shortcut label of Images root folder -->
-    <string name="images_shortcut_label">Images</string>
+    <string name="images_shortcut_label">@string/chip_title_images</string>
 	
     <!-- Shortcut label of Videos root folder -->
-    <string name="vidoes_shortcut_label">Videos</string>
+    <string name="vidoes_shortcut_label">@string/chip_title_videos</string>
 	
     <!-- Shortcut label of Audios root folder -->
-    <string name="audios_shortcut_label">Audios</string>
+    <string name="audios_shortcut_label">@string/chip_title_audio</string>
 	
     <!-- Shortcut label of Documents root folder -->
-    <string name="documents_shortcut_label">Documents</string>
+    <string name="documents_shortcut_label">@string/chip_title_documents</string>
     
     <!-- Shortcut label of Downloads root folder -->
     <string name="downloads_shortcut_label">@string/downloads_label</string>
