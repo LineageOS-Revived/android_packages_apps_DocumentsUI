@@ -74,38 +74,30 @@
         <item name="fontFamily">@string/config_fontFamilyMedium</item>
     </style>
 
-    <style name="MaterialButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="colorAccent">@color/negative_button_color</item>
-        <item name="android:textColor">@color/inverted</item>
-        <item name="android:fillColor">@color/negative_button_color</item>
-        <item name="backgroundTint">@color/negative_button_color</item>
+    <style name="MaterialButton" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="strokeColor">@color/hairline</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="MaterialOutlinedButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="colorAccent">@color/primary</item>
-        <item name="android:textColor">@color/app_background_color</item>
-        <item name="android:fillColor">@color/primary</item>
-        <item name="backgroundTint">@color/primary</item>
+    <style name="MaterialOutlinedButton" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="strokeColor">@color/hairline</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="colorAccent">@color/negative_button_color</item>
-        <item name="android:textColor">@color/inverted</item>
-        <item name="android:fillColor">@color/negative_button_color</item>
-        <item name="backgroundTint">@color/negative_button_color</item>
+    <style name="NegativeButtonStyle" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="strokeColor">@color/hairline</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColor">@color/app_background_color</item>
-        <item name="android:fillColor">@color/colorAccent</item>
-        <item name="backgroundTint">@color/colorAccent</item>
+    <style name="PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="strokeColor">@color/hairline</item>
         <item name="android:layout_marginStart">10dp</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">14sp</item>
@@ -130,8 +122,8 @@
     </style>
     
     <style name="MaterialAlertTextLabelStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-       <item name="hintTextColor">@color/colorAccent</item>
-       <item name="colorAccent">@color/colorAccent</item>
-       <item name="boxStrokeColor">@color/colorAccent</item>
+       <item name="hintTextColor">@color/hairline</item>
+       <item name="colorAccent">@color/hairline</item>
+       <item name="boxStrokeColor">@color/hairline</item>
     </style>
 </resources>
