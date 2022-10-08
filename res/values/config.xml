@@ -49,7 +49,7 @@
     <bool name="feature_content_paging">true</bool>
     <bool name="feature_content_refresh">true</bool>
     <bool name="feature_folders_in_search_results">true</bool>
-    <bool name="feature_gesture_scale">true</bool>
+    <bool name="feature_gesture_scale">false</bool>
     <bool name="feature_job_progress_dialog">false</bool>
     <bool name="feature_launch_to_document">true</bool>
     <bool name="feature_notification_channel">true</bool>
