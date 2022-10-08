@@ -21,6 +21,7 @@ import static android.content.ContentResolver.wrap;
 import static com.android.documentsui.base.SharedMinimal.DEBUG;
 
 import android.app.DownloadManager;
+import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.ClipData;
 import android.content.ContentProviderClient;
@@ -152,7 +153,12 @@ public class ActionHandler<T extends FragmentActivity & Addons> extends Abstract
     public void openSettings(RootInfo root) {
         Metrics.logUserAction(MetricConsts.USER_ACTION_SETTINGS);
         final Intent intent = new Intent(DocumentsContract.ACTION_DOCUMENT_ROOT_SETTINGS);
+        intent.addCategory(Intent.CATEGORY_DEFAULT);
+        intent.setData(Uri.parse("package:" + mActivity.getPackageName()));
         intent.setDataAndType(root.getUri(), DocumentsContract.Root.MIME_TYPE_ITEM);
+       intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        intent.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
         mActivity.startActivity(intent);
     }
 
